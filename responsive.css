@@ -1,0 +1,213 @@
+@media only screen and (max-width:1300px) {
+    h1 {
+        font-size: 30px !important;
+    }
+
+    h2 {
+        font-size: 22px  !important;
+    }
+
+    h3 {
+        font-size: 18px  !important;
+    }
+
+    h4 {
+        font-size: 15px  !important;
+    }
+
+    h5 {
+        font-size: 13px  !important;
+    }
+    p{
+        font-size: medium;
+    }
+
+}
+@media only screen and (max-width:1080px) {
+    h1 {
+        font-size: 28px !important;
+    }
+
+    h2 {
+        font-size: 22px  !important;
+    }
+
+    h3 {
+        font-size: 17px  !important;
+    }
+
+    h4 {
+        font-size: 14px  !important;
+    }
+
+    h5 {
+        font-size: 13px  !important;
+    }
+    p{
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width:950px){
+    section{
+        flex-flow: column-reverse;
+        padding: 30px;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .left-about, .left-home, .buttons{
+        align-items: center;
+        justify-content: center;
+        width: 99%;
+        margin: auto;
+    }
+
+    .thought h4{
+        position: static;
+        text-align: center;
+    }
+    .m-left{
+        margin-left: 0 !important;
+    }
+
+    .thought{
+        gap: 1px;
+    }
+
+
+    .fourthsection{
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width:900px){
+    #res-nav{
+        display: flex;
+        justify-content: center;
+    }
+    #toggle1, #toggle2{
+        display: flex;
+    }
+    .navbar .lists{
+        display: none;
+    }
+    .navbar{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right-home video{
+        width: 400px;
+    }
+
+    .project{
+        flex-flow: column nowrap;
+        text-align: center !important;
+    }
+    .project-tools{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:500px){
+    .right-home video{
+        width: 300px;
+    }
+
+    h1 {
+        font-size: 25px !important;
+    }
+
+    h2 {
+        font-size: 20px  !important;
+    }
+
+    h3 {
+        font-size: 15px  !important;
+    }
+
+    h4 {
+        font-size: 12px  !important;
+    }
+
+    h5 {
+        font-size: 10px  !important;
+    }
+    p{
+        font-size: 16px !important;
+    }
+
+    section{
+        padding: 3px;
+        width: 97vw;
+    }
+
+    .thought{
+        width: 99%;
+        margin: auto;
+    }
+
+    .educations{
+        gap: 65px;
+    }
+
+    #res-nav{
+        margin: auto;
+        justify-content: start;
+    }
+
+    .right-about{
+        width: fit-content;
+        margin: 30px 1px;
+    }
+
+    .left-project{
+       width: inherit;
+        margin: auto;
+    }
+    .right-project{
+        width: 90%;
+        margin: auto;
+    }
+    .links{
+        padding: 2px !important;
+    }
+}
+
+@media (max-width:400px) {
+    .educations{
+        gap: 60px;
+    }
+
+    .project{
+        width: 95vw !important;
+        margin: auto;
+    }
+
+
+    h1 {
+        font-size: 24px !important;
+    }
+
+    h2 {
+        font-size: 19px  !important;
+    }
+
+    h3 {
+        font-size: 14px  !important;
+    }
+
+    h4 {
+        font-size: 11px  !important;
+    }
+
+    h5 {
+        font-size: 9px  !important;
+    }
+    p{
+        font-size: 15px !important;
+    }
+
+}
