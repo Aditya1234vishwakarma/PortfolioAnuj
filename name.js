@@ -66,67 +66,67 @@ function name() {
     setTimeout(() => {
         document.getElementById("letter1").innerHTML = ""
 
-    }, 6400);
+    }, 7200);
     setTimeout(() => {
         document.getElementById("letter2").innerHTML = ""
 
-    }, 6200);
+    }, 7000);
     setTimeout(() => {
         document.getElementById("letter3").innerHTML = ""
 
-    }, 6000);
+    }, 6800);
     setTimeout(() => {
         document.getElementById("letter4").innerHTML = ""
 
-    }, 5800);
+    }, 6600);
     setTimeout(() => {
         document.getElementById("letter5").innerHTML = ""
 
-    }, 5600);
+    }, 6400);
     setTimeout(() => {
         document.getElementById("letter6").innerHTML = ""
 
-    }, 5400);
+    }, 6200);
     setTimeout(() => {
         document.getElementById("letter7").innerHTML = ""
 
-    }, 5200);
+    }, 6000);
     setTimeout(() => {
         document.getElementById("letter8").innerHTML = ""
 
-    }, 5000);
+    }, 5800);
     setTimeout(() => {
         document.getElementById("letter9").innerHTML = ""
 
-    }, 4800);
+    }, 5600);
     setTimeout(() => {
         document.getElementById("letter10").innerHTML = ""
 
-    }, 4600);
+    }, 5400);
     setTimeout(() => {
         document.getElementById("letter11").innerHTML = ""
 
-    }, 4400);
+    }, 5200);
     setTimeout(() => {
         document.getElementById("letter12").innerHTML = ""
 
-    }, 4200);
+    }, 5000);
     setTimeout(() => {
         document.getElementById("letter13").innerHTML = ""
 
-    }, 4000);
+    }, 4800);
     setTimeout(() => {
         document.getElementById("letter14").innerHTML = ""
 
-    }, 3800);
+    }, 4600);
     setTimeout(() => {
         document.getElementById("letter15").innerHTML = ""
 
-    }, 3600);
+    }, 4200);
     setTimeout(() => {
         document.getElementById("letter16").innerHTML = ""
 
-    }, 3400);
+    }, 4000);
 };
 
 setTimeout(() => {
@@ -135,4 +135,4 @@ setTimeout(() => {
 
 setInterval(() => {
     name();
-}, 7300);
+}, 8000);
