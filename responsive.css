@@ -98,7 +98,9 @@
         align-items: center;
         justify-content: center;
     }
-
+    .skills, .languages, .tools{
+        justify-content: center;
+    }
     .right-home video{
         width: 400px;
     }
