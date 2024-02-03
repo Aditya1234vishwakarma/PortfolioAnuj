@@ -101,6 +101,9 @@
     .skills, .languages, .tools{
         justify-content: center;
     }
+    .right-project{
+        width: 90%;
+    }
     .right-home video{
         width: 400px;
     }
