@@ -159,9 +159,9 @@ body {
     align-items: center;
     justify-content: center;
     height: 25px;
-    gap: 5px;
+    gap:15px;
     width: 150px;
-    font-weight: 800;
+    font-weight: 300;
 }
 
 .toggle{
@@ -178,7 +178,7 @@ body {
     height: 16px;
     transition: all 0.2s ease 1ms;
     width: 13px;
-    transform: rotate(90deg);
+    transform: rotate(270deg);
 }
 
 section {
@@ -452,7 +452,7 @@ section {
 .project-section .lists {
     background-color: #0f0f0f;
     position: sticky;
-    top: 85px;
+    top: 60px;
     z-index: 130;
     left: 0;
     width: 99vw;
