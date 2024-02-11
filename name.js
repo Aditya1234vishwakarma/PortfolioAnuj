@@ -129,9 +129,9 @@ function name() {
     }, 4000);
 };
 
-setTimeout(() => {
-    name()
-}, 500);
+// setTimeout(() => {
+//     name()
+// }, 500);
 
 setInterval(() => {
     name();
