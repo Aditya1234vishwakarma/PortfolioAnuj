@@ -228,6 +228,22 @@ section {
     line-height: 50px;
 }
 
+.typing-animation {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    overflow: hidden; /* Ensures that text does not overflow the container */
+    border-right: .15em solid orange; /* Typing cursor */
+    white-space: nowrap; /* Prevents wrapping */
+    animation: typing 3s steps(40, end); /* 3s duration for typing effect */
+  }
+  
+  @keyframes typing {
+    from { width: 0; } /* Start with no width */
+    to { width: 100%; } /* Gradually increase width to full */
+  }
+  
+
 .left-home h2 {
     font-style: italic;
     font-size: 30px;
