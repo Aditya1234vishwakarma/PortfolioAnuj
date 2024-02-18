@@ -203,7 +203,8 @@ section {
 }
 
 #blinker {
-    animation: blink 1s 1ms infinite;
+    animation: blink 0.8s 1ms infinite;
+    font-weight: lighter;
 }
 
 @keyframes blink {
@@ -226,7 +227,8 @@ section {
     font-weight: bolder;
     letter-spacing: 0.1px;
     height: auto;
-    width: 89%;
+    display: flex;
+    align-items: center;
 }
 
 .typing-animation {
@@ -567,22 +569,6 @@ section {
     border: 1px solid #242424;
     border-radius: 110px;
     justify-content: center;
-    cursor: pointer;
-    transition: all 0.18s linear 1ms;
-}
-
-.project-tool:hover {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    text-align: center;
-    width: 90px;
-    height: 90px;
-    padding: 5px;
-    background-color: #242424;
-    border: 1px solid #eee;
-    border-radius: 110px;
-    justify-content: center;
 }
 
 .tool-logo {
@@ -642,26 +628,9 @@ section {
     border: 1px solid #242424;
     border-radius: 10px;
     justify-content: center;
-    cursor: pointer;
     transition: all 0.18s linear 1ms;
     text-overflow: ellipsis;
 
-}
-
-.language:hover,
-.tool:hover,
-.skill:hover {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    text-align: center;
-    width: 90px;
-    height: 90px;
-    padding: 10px;
-    background-color: #242424;
-    border: 1px solid #eee;
-    border-radius: 10px;
-    justify-content: center;
 }
 
 .skill:nth-child(1) {
@@ -676,10 +645,41 @@ section {
     display: flex;
     align-items: center;
     width: 90vw;
+    height: fit-content;
+    margin-top: 90px !important;
     margin: auto;
-    justify-content: center;
+    /* justify-content: center; */
     flex-flow: column nowrap;
-    gap: 30px;
+    gap: 15px;
+}
+
+.sixsection form{
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    gap: 30px;   
+}
+
+#send{
+    height: 40px !important;
+    font-size: medium;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(58, 214, 58);
+    transition: all 0.2s 1ms;
+}
+#send:hover{
+    height: 40px !important;
+    font-size: medium;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(24, 180, 24);
 }
 
 .input{
@@ -703,6 +703,11 @@ section {
 .input::placeholder{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    font-style: italic;
+}
+
+.input:focus{
+   display: block;
+   border: none;
 }
 
 .footer{
