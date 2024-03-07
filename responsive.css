@@ -86,7 +86,7 @@
 @media only screen and (max-width:900px){
     #res-nav{
         display: flex;
-        justify-content: center;
+        overflow: scroll;
     }
     #toggle1, #toggle2{
         display: flex;

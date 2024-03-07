@@ -7,6 +7,7 @@
     <title>Portfolio - Anuj</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" href="./assets/portfolio.png" class="invert">
 </head>
 
 <body>
@@ -52,7 +53,7 @@
                 Explore new technologies</p>
             <p class="points"><img src="./assets/icons8-right-arrow-16.png" alt="">&nbsp;&nbsp;Indian Institute of
                 Information Technology (IIIT), Bhopal</p>
-            <div class="buttons" id="about">
+            <div class="buttons">
                 <a href="https://www.linkedin.com/in/anuj-vishwakarma-5488ab24a" target="_blank"
                     rel="noopener noreferrer"><img src="./assets/icons8-linkedin-32.png" alt=""></a>
                 <a href="https://github.com/anuj-C0d3" target="_blank" rel="noopener noreferrer"><img
@@ -66,8 +67,7 @@
                 autoplay></video>
         </div>
     </section>
-    <div class="hr"></div>
-    <section class="secondsection">
+    <section class="secondsection" id="about">
         <div class="left-about">
             <h2 class="green">About</h2>
             <p class="para">Hey I m, Anuj Vishwakarma a 21 year old tech enthusiast from Bhopal, Madhya Pradesh. I've
@@ -76,7 +76,7 @@
                 currently pursuing B.tech. in Electronics and Communication. I am a programmer and constantly striving
                 to explore new technologies in order to upgrade my skills.I do programming in various languages and
                 technologies including no-code-tools.</p>
-            <p class="para" id="education">I'm interested in building something awesome with code and automate tasks
+            <p class="para">I'm interested in building something awesome with code and automate tasks
                 with code,
                 currently focused on Mobile Development, Open Source and Competitive Programming.</p>
             <a href="https://drive.google.com/file/d/1Umro9i93_UBRzXGpWAGdGWFrIDvIdzvJ/view?usp=drivesdkhttps://drive.google.com/file/d/1Umro9i93_UBRzXGpWAGdGWFrIDvIdzvJ/view?usp=drivesdk"
@@ -91,7 +91,7 @@
         </div>
     </section>
     <div class="hr"></div>
-    <section class="thirdsection">
+    <section class="thirdsection" id="education">
         <h1 class="green">Education</h1>
         <div class="main">
             <div class="figure">
@@ -106,7 +106,7 @@
                     <p class="place">Surbhi Vidhya Niketan HR SEC School, Bhopal</p>
                     <p class="work">Class XII | 95.4% | 2021</p>
                 </div>
-                <div class="education" id="projects">
+                <div class="education">
                     <p class="place">Surbhi Vidhya Niketan HR SEC School, Bhopal</p>
                     <p class="work">Class X | 94.2% | 2019</p>
                 </div>
@@ -116,7 +116,7 @@
 
     <div class="hr"></div>
 
-    <section class="fourthsection">
+    <section class="fourthsection" id="projects">
         <h1 class="green m-left">Projects</h1>
         <h3 class="blue m-left">Here are some projects on which I have worked.</h3>
         <div class="project-section">
@@ -142,7 +142,7 @@
                             crypto currency. There is a searching bar, by which we can search a perticular crypto
                             currency.</p>
                         <h1 class="blue">Project tool</h2>
-                            <div class="project-tools" id="skills">
+                            <div class="project-tools">
                                 <div class="project-tool">
                                     <img src="./assets/icons8-postman-is-the-only-complete-api-development-environment-32.png"
                                         alt="" class="tool-logo">
@@ -165,7 +165,7 @@
 
     <div class="hr"></div>
 
-    <section class="fifthsection">
+    <section class="fifthsection" id="skills">
         <h1 class="green">Skills, Tools & Languages</h1>
         <h2 class="orange">Here is my some skills & tools will I have used</h2>
         <h1 class="blue">Tools</h3>
@@ -230,11 +230,14 @@
     <section class="sixsection">
         <h1 class="green">Contact with me</h1>
         <form action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="df4fb01d-4630-4adf-abd2-8cd8919aed7d">
-        <input type="text" name="name" id="name" class="input" autocomplete="off" required placeholder="Enter Your Name">
-        <input type="email" name="email" id="email" class="input" autocomplete="off" required placeholder="Enter Your email">
-        <textarea name="message" id="message" class="input" autocomplete="off" required placeholder="Enter Your Message" cols="30" rows="10"></textarea>
-        <button id="send" type="submit">Send</button>
+            <input type="hidden" name="access_key" value="df4fb01d-4630-4adf-abd2-8cd8919aed7d">
+            <input type="text" name="name" id="name" class="input" autocomplete="off" required
+                placeholder="Enter Your Name">
+            <input type="email" name="email" id="email" class="input" autocomplete="off" required
+                placeholder="Enter Your email">
+            <textarea name="message" id="message" class="input" autocomplete="off" required
+                placeholder="Enter Your Message" cols="30" rows="10"></textarea>
+            <button id="send" type="submit">Send</button>
         </form>
     </section>
 
@@ -246,7 +249,7 @@
         <div class="text">
             <p>Developed and designed by <span class="green">Anuj Vishwakarma</span></p>
             <p>Developed Using <span class="green">VS Code</span> and Depoyed on <span class="green">Vercel</span></p>
-            <p>Copyright &copy; 2024 | Anuj Vishwakarma | All ights reserved</p>
+            <p>Copyright &copy; 2024 | Anuj Vishwakarma | All rights reserved</p>
         </div>
     </footer>
     <script src="./name.js"></script>
