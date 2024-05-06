@@ -4,120 +4,140 @@
     }
 
     h2 {
-        font-size: 22px  !important;
+        font-size: 22px !important;
     }
 
     h3 {
-        font-size: 18px  !important;
+        font-size: 18px !important;
     }
 
     h4 {
-        font-size: 15px  !important;
+        font-size: 15px !important;
     }
 
     h5 {
-        font-size: 13px  !important;
+        font-size: 13px !important;
     }
-    p{
+
+    p {
         font-size: medium;
     }
 
 }
+
 @media only screen and (max-width:1080px) {
     h1 {
         font-size: 28px !important;
     }
 
     h2 {
-        font-size: 22px  !important;
+        font-size: 22px !important;
     }
 
     h3 {
-        font-size: 17px  !important;
+        font-size: 17px !important;
     }
 
     h4 {
-        font-size: 14px  !important;
+        font-size: 14px !important;
     }
 
     h5 {
-        font-size: 13px  !important;
+        font-size: 13px !important;
     }
-    p{
+
+    p {
         font-size: small;
     }
 }
 
-@media only screen and (max-width:950px){
-    section{
+@media only screen and (max-width:950px) {
+    section {
         flex-flow: column-reverse;
         padding: 30px;
         gap: 5px;
+        min-height: 650px;
+        max-height: fit-content;
         align-items: center;
         justify-content: center;
         text-align: center;
     }
 
-    .left-about, .left-home, .buttons{
+    .left-about,
+    .left-home,
+    .buttons {
         align-items: center;
         justify-content: center;
         width: 99%;
         margin: auto;
     }
 
-    .thought h4{
+    .thought h4 {
         position: static;
         text-align: center;
     }
-    .m-left{
+
+    .m-left {
         margin-left: 0 !important;
     }
 
-    .thought{
+    .thought {
         gap: 1px;
     }
 
 
-    .fourthsection{
+    .fourthsection {
         padding: 0px;
     }
 }
 
-@media only screen and (max-width:900px){
-    #res-nav{
+@media only screen and (max-width:900px) {
+    #res-nav {
         display: flex;
         overflow: scroll;
     }
-    #toggle1, #toggle2{
+
+    #toggle1,
+    #toggle2 {
         display: flex;
     }
-    .navbar .lists{
+
+    .navbar .lists {
         display: none;
     }
-    .navbar{
+
+    .navbar {
         align-items: center;
         justify-content: center;
+        position: sticky;
     }
-    .skills, .languages, .tools{
+
+    .skills,
+    .languages,
+    .tools {
         justify-content: center;
     }
-    .right-project{
+
+    .right-project {
         width: 90%;
     }
-    .right-home video{
+
+    .right-home video {
         width: 400px;
     }
 
-    .project{
+    .project {
         flex-flow: column nowrap;
         text-align: center !important;
     }
-    .project-tools{
+
+    .project-tools {
         justify-content: center;
     }
 }
-@media only screen and (max-width:500px){
-    .right-home video{
+
+@media only screen and (max-width:500px) {
+    .right-home video {
         width: 300px;
     }
 
@@ -126,67 +146,70 @@
     }
 
     h2 {
-        font-size: 20px  !important;
+        font-size: 20px !important;
     }
 
     h3 {
-        font-size: 15px  !important;
+        font-size: 15px !important;
     }
 
     h4 {
-        font-size: 12px  !important;
+        font-size: 12px !important;
     }
 
     h5 {
-        font-size: 10px  !important;
+        font-size: 10px !important;
     }
-    p{
+
+    p {
         font-size: 16px !important;
     }
 
-    section{
+    section {
         padding: 3px;
         width: 97vw;
     }
 
-    .thought{
+    .thought {
         width: 99%;
         margin: auto;
     }
 
-    .educations{
+    .educations {
         gap: 65px;
     }
 
-    #res-nav{
+    #res-nav {
         margin: auto;
         justify-content: start;
     }
 
-    .right-about{
+    .right-about {
         width: fit-content;
         margin: 30px 1px;
     }
 
-    .left-project{
-       width: inherit;
+    .left-project {
+        width: inherit;
         margin: auto;
     }
-    .right-project{
+
+    .right-project {
         width: 90%;
         margin: auto;
     }
-    .links{
+
+    .links {
         padding: 2px !important;
     }
 }
 
 @media (max-width:400px) {
-    .educations{
+    .educations {
         gap: 60px;
     }
 
-    .project{
+    .project {
         width: 95vw !important;
         margin: auto;
     }
@@ -197,21 +220,22 @@
     }
 
     h2 {
-        font-size: 19px  !important;
+        font-size: 19px !important;
     }
 
     h3 {
-        font-size: 14px  !important;
+        font-size: 14px !important;
     }
 
     h4 {
-        font-size: 11px  !important;
+        font-size: 11px !important;
     }
 
     h5 {
-        font-size: 9px  !important;
+        font-size: 9px !important;
     }
-    p{
+
+    p {
         font-size: 15px !important;
     }
 

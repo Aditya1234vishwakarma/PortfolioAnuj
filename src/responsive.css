@@ -1,0 +1,64 @@
+/* @media (max-width:1030px) {
+    
+}
+@media (max-width:930px) {
+    
+} */
+@media (max-width:850px) {
+    #education{
+        gap: 3px;
+    }
+    .educations{
+        gap: 100px !important;
+    }
+    .education{
+        font-size: 14px !important;
+    }
+    .right-education, .rightside, .right-contact{
+        display: none;
+    }
+}
+@media (max-width:768px) {
+    .project-section{
+        grid-template-columns: repeat(1, 100%) !important;
+        grid-template-rows: repeat(1, 900px) !important;
+    }
+    .project-card{
+        height: inherit !important;
+        margin-top: 40px;
+    }
+    .rightpart, .leftpart{
+        width: fit-content !important;
+    }
+}
+@media (max-width:720px) {
+    .right-nav{
+        display: none !important;
+    }
+    .toggle{
+        display: flex !important;
+    }
+    header{
+        align-items: center !important;
+        justify-content: center !important;
+        font-weight: 900 !important; 
+    }
+    #res-nav{
+        display: flex;
+    }
+    section{
+        scroll-margin-top: 75px !important;
+    }
+}
+@media (max-width:570px) {
+    
+}
+@media (max-width:465px) {
+    
+}
+@media (max-width:360px) {
+    
+}
+@media (max-width:300px) {
+    
+}
