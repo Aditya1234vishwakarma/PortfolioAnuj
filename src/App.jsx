@@ -58,10 +58,9 @@ function App() {
         </div>
       </div>
     </div>
-    <div className="rightpart w-full grid justify-items-center justify-center">
-      <img src={frame} alt="" className="frame w-52 max-sm:w-48" />
+    <div className="rightpart w-full grid justify-items-center justify-end">
+      <img src={frame} alt="" className="frame w-[210px] h-[375px] max-sm:h-[366px]" />
       <video src={crypto} autoPlay muted loop className="projectinterface max-sm:w-48 w-52 rounded-[30px]"></video>
-      <a href="http://" target="_blank" rel="noopener noreferrer" className='mt-3 font-medium text-xs text-white hover:border-indigo-700 transition border-2 p-[3px] rounded-md'>View full video</a>
     </div>
   </div>,
   <div className='!w-inherit h-inherit !flex max-lg:flex-col-reverse max-lg:gap-5 max-lg:!text-center items-center justify-between '>
@@ -85,10 +84,10 @@ function App() {
         </div>
       </div>
     </div>
-    <div className="rightpart w-full grid justify-items-center justify-center">
+    <div className="rightpart w-full grid justify-items-center justify-end">
       <img src={frame} alt="" className="frame w-52 max-sm:w-48" />
       <video src={windeal} autoPlay muted loop className="projectinterface max-sm:w-[180px] w-[194px] rounded-[30px]"></video>
-      <a href="http://" target="_blank" rel="noopener noreferrer" className='mt-3 font-medium text-xs text-white hover:border-indigo-700 transition border-2 p-[3px] rounded-md'>View full video</a>
+      <a href="https://youtu.be/zBQeiVvQQ7c?si=YRG6lVP1GGaRiMpn" target="_blank" rel="noopener noreferrer" className='mt-3 font-medium text-xs text-white hover:border-indigo-700 transition border-2 p-[3px] rounded-md'>View full video</a>
     </div>
   </div>,
   <div className='!w-inherit h-inherit !flex max-lg:flex-col-reverse max-lg:gap-5 max-lg:!text-center items-center justify-between '>
@@ -111,10 +110,10 @@ function App() {
         </div>
       </div>
     </div>
-    <span className="rightpart w-full inline-grid justify-items-center justify-center">
+    <span className="rightpart w-full grid justify-items-center justify-end">
       <img src={frame} alt="" className="frame w-52 max-sm:w-48" />
       <video src={windealer} autoPlay muted loop className="projectinterface w-[192px] max-sm:w-[180px] rounded-[30px]"></video>
-      <a href="http://" target="_blank" rel="noopener noreferrer" className='mt-3 font-medium text-xs text-white hover:border-indigo-700 transition border-2 p-[3px] rounded-md'>View full video</a>
+      <a href="https://youtu.be/zBQeiVvQQ7c?si=YRG6lVP1GGaRiMpn" target="_blank" rel="noopener noreferrer" className='mt-3 font-medium text-xs text-white hover:border-indigo-700 transition border-2 p-[3px] rounded-md'>View full video</a>
     </span>
   </div>]}
 , [num]);
@@ -138,7 +137,7 @@ function App() {
 
   return (
     <>
-      <header className="m-auto py-2 flex justify-between h-[60px] items-center fixed top-0 bg-gray-900 z-10 border-b-2 px-3 border-gray-800 w-[100%]" id='top'>
+      <header className="m-auto py-2 flex justify-between h-[60px] items-center fixed top-0 bg-gray-900 z-50 border-b-2 px-3 border-gray-800 w-[100%]" id='top'>
         <nav className="left-nav"><h1 className='text-5xl tangerine-bold font-bold'>Anuj Vishwakarma</h1></nav>
         <nav className="right-nav flex gap-5">
           <Anchor href={"#education"} value={"Eduacation"} />
@@ -147,7 +146,7 @@ function App() {
           <Anchor href={"#contact"} value={"Contact me"} />
         </nav>
       </header>
-      <div id='res-nav' className="hidden h-[60px] transition-all duration-200 font-bold overflow-scroll z-50 items-center justify-center !bg-gray-800 !p-0 sticky top-[0px] gap-3 w-full">
+      <div id='res-nav' className="hidden h-[60px] transition-all duration-200 font-bold overflow-scroll z-40 items-center justify-center !bg-gray-800 !p-0 sticky top-[0px] gap-3 w-full">
         <Anchor href={"#education"} value={"Eduacation"} />
         <Anchor href={"#skills"} value={"Skills"} />
         <Anchor href={"#projects"} value={"Projects"} />
@@ -309,9 +308,9 @@ function App() {
             <h1 className="text-green-400 text-[24px] font-bold">Contact with me</h1>
             <form action="https://api.web3forms.com/submit" className='gap-2 flex flex-col' method="POST">
               <div><input type="hidden" name="access_key" value="df4fb01d-4630-4adf-abd2-8cd8919aed7d" /></div>
-              <div><input type="text" name="name" id="name" className="input text-gray-950 focus-within:border-none focus:border-none" aria-autocomplete="none" required placeholder="Enter Your Name" /></div>
-              <div><input type="email" name="email" id="email" className="input text-gray-950 focus-within:border-none focus:border-none" aria-autocomplete='none' required placeholder="Enter Your email" /></div>
-              <div><textarea name="message" id="message" className="input text-gray-950 focus-within:!border-none" aria-autocomplete='none' required placeholder="Enter Your Message" cols="30" rows="10"></textarea></div>
+              <div><input type="text" name="name" id="name" className="input outline-none bg-gray-800 text-white !border-gray-500 active:outline" aria-autocomplete="none" required placeholder="Enter Your Name" /></div>
+              <div><input type="email" name="email" id="email" className="input outline-none bg-gray-800 text-white !border-gray-500 active:outline" aria-autocomplete='none' required placeholder="Enter Your email" /></div>
+              <div><textarea name="message" id="message" className="input outline-none  bg-gray-800 text-white active:outline" aria-autocomplete='none' required placeholder="Enter Your Message" cols="30" rows="10"></textarea></div>
               <div><button id="send" type="submit">Send</button></div>
             </form>
           </div>

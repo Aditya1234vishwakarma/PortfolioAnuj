@@ -40,7 +40,7 @@ const AutoScrollCarousel = ({ cards }) => {
   };
 
   return (
-    <Slider className='!w-[90vw] m-auto max-lg:h-[1100px] flex items-center justify-center p-12 max-md:p-8 max-sm:p-4 max-sm:h-fit max-sm:!text-sm project-card h-[600px]' {...settings} ref={sliderRef}>
+    <Slider className='!w-11/12 m-auto max-lg:h-[1100px] flex items-center justify-center p-12 max-md:p-8 max-sm:p-4 max-sm:h-fit max-sm:!text-sm project-card h-[600px]' {...settings} ref={sliderRef}>
         {cards}
     </Slider>
   );
